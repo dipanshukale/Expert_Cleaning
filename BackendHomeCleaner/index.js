@@ -16,7 +16,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 
 app.use(
 	cors({
-		origin: process.env.FRONTEND_URL,
+		origin: "https://expert-cleaning-frontend.onrender.com",
 		methods: ["POST"],
 		credentials: true,
 	})
