@@ -15,7 +15,7 @@ const FooterSection = () => {
 
 		try {
 			const quote = await axios.post(
-				"http://localhost:5000/customer/quote",
+				"https://expert-cleaning.onrender.com",
 				{
 					email,
 				},
