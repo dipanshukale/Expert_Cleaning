@@ -21,7 +21,7 @@ const BookingPage = () => {
 
 		try {
 			const { data } = await axios.post(
-				"http://localhost:5000/clients/booking",
+				"https://expert-cleaning.onrender.com",
 				{
 					name,
 					email,
