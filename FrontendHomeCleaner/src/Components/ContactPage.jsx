@@ -28,7 +28,7 @@ const ContactPage = () => {
 
     try {
         const { data } = await axios.post(
-        "http://localhost:5000/customer/contact",
+        "https://expert-cleaning.onrender.com",
         {
           name,
           email,
